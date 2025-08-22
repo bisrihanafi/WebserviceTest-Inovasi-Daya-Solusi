@@ -9,9 +9,11 @@ import java.util.ArrayList;
 import javax.servlet.http.HttpServlet;
 
 /**
- * Klas untuk menampung deretan pasangan server service dan path nya
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author Hanafi
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class ListModelAPI {
 

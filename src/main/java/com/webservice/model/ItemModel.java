@@ -78,6 +78,10 @@ public class ItemModel extends JSONCreator {
         return this;
     }
 
+    public int getStatus() {
+        return status;
+    }
+
     /**
      *
      * @return JSONCreator

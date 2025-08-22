@@ -20,8 +20,11 @@ import org.eclipse.jetty.servlets.CrossOriginFilter;
 
 
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author xuser
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class InitializeWeb {
 

@@ -9,6 +9,9 @@ import com.webservice.database.DatabaseHelper;
 import java.sql.Connection;
 
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
+ *
+ * Aug 22, 2025 5:15:14 PM
  *
  * @author HP
  */
@@ -19,9 +22,10 @@ public class WebserviceTest {
     }
 
     public static void main(String[] args) throws Exception {
-        MainRunner.start(args);
+        
         try(Connection koneksi=DatabaseHelper.getConnection()){
             DatabaseHelper.getVersion(koneksi);
+            MainRunner.start(args);
         }
     }
 }

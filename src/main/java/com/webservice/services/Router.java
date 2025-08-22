@@ -6,12 +6,12 @@ package com.webservice.services;
 
 import com.webservice.model.ListModelAPI;
 
-
-
-
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author Hanafi
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class Router {
 
@@ -23,8 +23,8 @@ public class Router {
     public Router() {
 
         item
-                .addServiceItem(new ServicePath(0), ServicePath.PATH)
-
+                .addServiceItem(new ServicePathBase(0), ServicePathBase.PATH)
+                .addServiceItem(new ServicePathWithFilter(0), ServicePathWithFilter.PATH)
                 .printPathBefore()
                 .returnThis();
     }

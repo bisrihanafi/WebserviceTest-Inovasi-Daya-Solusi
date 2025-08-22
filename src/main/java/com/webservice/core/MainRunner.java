@@ -7,8 +7,11 @@ import com.webservice.services.Router;
 
 
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author Hanafi
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class MainRunner {
 
@@ -21,11 +24,7 @@ public class MainRunner {
         optionHandlers = new HashMap<>();
         optionHandlers.put("-port=", new OptionInfo(
                 value -> PORT = Integer.parseInt(value),
-                "  -> setting port yang akan menjadi receiver aplikasi ini -port=8080"
-        ));
-        optionHandlers.put("-run", new OptionInfo(
-                value -> System.out.println("RUNNING APPLICAION"),
-                "  -> Menjalankan applikasi secara default (port=4443)"
+                "  -> setting port yang akan menjadi receiver aplikasi ini -port=8087"
         ));
 
         optionHandlers.put("-help", new OptionInfo(

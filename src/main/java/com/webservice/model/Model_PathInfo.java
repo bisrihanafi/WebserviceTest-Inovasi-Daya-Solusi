@@ -8,8 +8,11 @@ package com.webservice.model;
 import java.util.ArrayList;
 
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author xuser
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class Model_PathInfo {
 
