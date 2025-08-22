@@ -11,6 +11,7 @@ import com.webservice.model.ItemServices;
 import com.webservice.model.StatusModel;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -26,9 +27,9 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author bisri
  */
-public class ServicePath extends ItemServices {
+public class ServicePathBase extends ItemServices {
 
-    public ServicePath(int FLAG) {
+    public ServicePathBase(int FLAG) {
         super(FLAG);
     }
 
@@ -54,7 +55,7 @@ public class ServicePath extends ItemServices {
                 response.setContentType("application/json");
                 response.getWriter().println(content);
             }
-        } catch (Exception ex) {
+        } catch (IOException | SQLException ex) {
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
             Logger.getLogger(this.getClass().getName()).log(Level.SEVERE, null, ex);
             System.err.println(ex);

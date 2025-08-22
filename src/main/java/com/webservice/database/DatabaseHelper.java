@@ -5,7 +5,6 @@
 package com.webservice.database;
 
 import com.webservice.model.ItemModel;
-import com.webservice.model.JSONCreator;
 import com.webservice.model.StatusModel;
 import org.apache.commons.dbcp2.BasicDataSource;
 
@@ -14,11 +13,15 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
+/**
+ * Bisri Hanafi bisrihanafi@designjaya.com
+ *
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
+ */
 public class DatabaseHelper {
 
     private static final BasicDataSource dataSource;

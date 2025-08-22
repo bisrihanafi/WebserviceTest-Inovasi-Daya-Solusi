@@ -7,8 +7,11 @@ package com.webservice.model;
 import javax.servlet.http.HttpServlet;
 
 /**
+ * Bisri Hanafi bisrihanafi@designjaya.com
  *
- * @author Hanafi
+ * Aug 22, 2025 5:15:14 PM
+ *
+ * @author HP
  */
 public class ServletModel {
 
